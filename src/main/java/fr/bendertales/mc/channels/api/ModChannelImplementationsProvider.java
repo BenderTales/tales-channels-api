@@ -7,7 +7,10 @@ import net.minecraft.server.network.ServerPlayerEntity;
 
 public interface ModChannelImplementationsProvider extends Identifiable {
 
-
+	/**
+	 * Define the default format that will be used when the config has not been defined yet.
+	 * @return
+	 */
 	String getDefaultFormat();
 
 	/**
