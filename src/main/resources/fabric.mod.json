@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tales-channels-api",
+  "version": "${version}",
+  "name": "Tales Channels API",
+  "description": "A simple channels API for Fabric.",
+  "authors": [
+    "Nokorbis"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {},
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2",
+    "fabric-api-base": "*"
+  },
+  "custom": {
+    "modmenu:api": true
+  }
+}
